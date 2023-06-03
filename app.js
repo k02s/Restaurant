@@ -4,7 +4,7 @@
 // constructor 
 function Food(foodName, foodType, price){
 
-    this.Id = 0;
+    this.Id = this.generateFoodID();
     this.foodName = foodName;
     this.foodType = foodType;
     this.price = price;
